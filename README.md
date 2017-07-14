@@ -17,24 +17,25 @@ Tensorflow支持python和c++语言，支持CNN、RNN和LSTM等算法，可以被
 # TensorFlow培训大纲
 1. TensorFlow新手入门
   - 简介
-  - 下载与安装
-2. TensorFlow的基础使用
+  - [下载与安装](http://www.tensorfly.cn/tfdoc/get_started/os_setup.html)
+2. [TensorFlow的基础使用](http://www.tensorfly.cn/tfdoc/get_started/basic_usage.html)
   - 数据流图介绍
   - Graph，session，tensor，variable等基本概念介绍
-3. 基于TensorFlow实现MNIST多分类
+3. [基于TensorFlow实现MNIST多分类](http://www.tensorfly.cn/tfdoc/tutorials/mnist_beginners.html)
   - Softmax简介
   - 实现一个简单的多分类程序
 4. 使用TensorBoard可视化学习
-  - 数据序列化
-  - 训练过程可视化
-  - 网络结构可视化
-5. 卷积神经网络
+  - [训练过程可视化](http://www.tensorfly.cn/tfdoc/how_tos/summaries_and_tensorboard.html)
+  - [网络结构可视化](http://www.tensorfly.cn/tfdoc/how_tos/graph_viz.html)
+5. [卷积神经网络](http://www.tensorfly.cn/tfdoc/tutorials/deep_cnn.html)
   - 卷积神经网络介绍
   - CIFAR-10图像多分类问题
   - 多GPU训练模型
+  - 分布式训练
 6. AlphaGo的policy和value网络
   - AlphaGo核心算法简介
   - Policy Network模型结构与训练
   - Value Network模型结构与训练
+7. 其它
   - 如何加速训练
-7. 总结
+  - [数据序列化](http://www.tensorfly.cn/tfdoc/how_tos/reading_data.html)
